@@ -1,0 +1,108 @@
+h1 {
+  font-weight: normal;
+  color: #d96459;
+  position: left;
+  font-size: 100px;
+}
+
+h2 {
+  font-weight: normal;
+  color: #2c3e50;
+}
+
+h3 {
+  font-weight: normal;
+  color: #2c3e50;
+}
+
+.large { font-size: 130% }
+.small { font-size: 70% }
+
+
+pre {
+  white-space: pre-wrap;
+}
+
+.remark-slide-content {
+  font-size: 25px;
+  padding: 1em 4em 1em 4em;
+}
+
+a, a > code {
+  color: #2c3e50;
+}
+.remark-code-line-highlighted { background-color: rgba(88, 140, 126, 0.3); }
+
+.inverse {
+  background-color: #96ceb4;
+}
+.inverse, .inverse h1, .inverse h2, .inverse h3, .inverse a, inverse a > code {
+  color: #2c3e50;
+}
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #d96459;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  padding-right: 4em;
+  font-size: 90%;
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ * {
+  clear: both;
+}
+.imagem img, video, iframe {
+  max-width: 100%;
+}
+.block blockquote {
+  border-left: solid 5px lightgray;
+  padding-left: 1em;
+}
+.remark-slide table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
